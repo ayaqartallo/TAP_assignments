@@ -1,0 +1,322 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Cairo', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 140%;
+}
+
+.portofilo {
+    width: 60%;
+    height: 120%;
+    position: absolute;
+    z-index: 10;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.section1 {
+    height: 90%;
+    background-color: #f0f0f0;
+    position: relative;
+}
+
+.section2 {
+    height: 50%;
+    background-color: #cb3931;
+    position: relative;
+}
+
+.sec2 {
+    width: 30%;
+    height: 90%;
+    margin-left: 20%;
+}
+
+.sec1 {
+    width: 35%;
+    margin-top: 5%;
+    margin-left: 5%;
+    font-size: 12px;
+    color: #cb3931;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.outer-sec {
+    display: flex;
+    flex-direction: row;
+}
+
+.inner-sec {
+    width: 95%;
+    height: 45%;
+    margin-left: 5%;
+    background-color: #f0f0f0;
+    margin-top: 21.5%;
+    z-index: -1;
+    position: absolute;
+}
+
+.bold-name {
+    font-weight: bolder;
+    font-size: 40px;
+    margin-left: 5%;
+    margin-top: 15%;
+}
+
+.colored-text {
+    color: #cb3931;
+    font-size: 10px;
+    display: inline-block;
+    margin-left: 5%;
+    margin-top: 15%;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    margin-top: 27.5%;
+    margin-left: 5%;
+}
+
+b {
+    color: #cb3931;
+}
+
+.edu-sec {
+    margin-left: 20%;
+}
+.icons-c{
+    margin-left: 55%;
+}
+
+@media screen and (max-width: 1115px) {
+    .container{
+        height: 150%;
+    }
+    .portofilo{
+        height: 135%;
+    }
+    .inner-sec{
+        margin-top: 30%;
+        height: 42.5%;
+    }
+    .info{
+        margin-top: 50%;
+    }
+}
+@media screen and (max-width: 1069px) {
+    .container{
+        height: 150%;
+    }
+    .portofilo{
+        height: 135%;
+    }
+    .inner-sec{
+        margin-top: 30%;
+        height: 35%;
+    }
+    .info{
+        margin-top: 50%;
+    }
+}
+
+@media screen and (max-width: 950px){
+    .icons-c{
+        margin-left: 45%;
+    }
+}
+@media screen and (max-width: 912px){
+    .inner-sec {
+        margin-top: 35%;
+        height: 30%;
+    }
+    .sec2{
+        height: 100%;
+    }
+}
+@media screen and (max-width: 879px){
+    .inner-sec {
+        margin-top: 40%;
+        height: 30%;
+    }
+    .info{
+        margin-top: 60%;
+    }
+}
+
+@media screen and (max-width: 766px){
+    .inner-sec {
+        margin-top: 55%;
+        height: 30%;
+    }
+    .info{
+        margin-top: 75%;
+    }
+    .icons-c{
+        margin-left: 35%;
+    }
+}
+@media screen and (max-width: 680px){
+    .inner-sec {
+        margin-top: 60%;
+        height: 30%;
+    }
+    .info{
+        margin-top: 70%;
+    }
+    .icons-c{
+        margin-left: 25%;
+    }
+}
+
+@media screen and (max-width: 607px) {
+    .container{
+        height: 200%;
+    }
+    .portofilo {
+        margin-top: 20%;
+        margin-left: 20%;
+        height: 165%;
+    }
+
+    .sec1 {
+        font-size: 12px;
+        width: 90%;
+        padding-top: 8%;
+    }
+
+    .sec2{
+        margin-top: 10%;
+        height: 100%;
+        width: 40%;
+    }
+
+    .inner-sec {
+        margin-top: 90%;
+        height: 27%;
+    }
+
+    .bold-name {
+        font-weight: bolder;
+        font-size: 34px;
+        margin-left: 5%;
+        margin-top: 35%;
+    }
+    
+    .colored-text {
+        font-size: 10px;
+        display: inline-block;
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+    .div-text{
+        margin-top: 23%;
+    }
+
+    .outer-sec {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .info {
+        margin-top: 80%;
+        flex-direction: column;
+    }
+
+    .edu-sec {
+        margin-left: 0;
+    }
+}
+@media screen and (max-width: 550px) {
+    .inner-sec{
+        flex-direction: column;
+    }
+    .icons-c{
+        margin-left: 15%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .info {
+        margin-top: 90%;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 477px) {
+    .sec2{
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .container{
+        height: 200%;
+    }
+    .portofilo {
+        margin-top: 20%;
+        margin-left: 20%;
+        height: 175%;
+    }
+
+    .sec1 {
+        font-size: 10px;
+        width: 90%;
+        padding-top: 8%;
+    }
+
+    .sec2{
+        margin-top: 5%;
+    }
+
+    .inner-sec {
+        margin-top: 90%;
+        height: 25%;
+    }
+
+    .bold-name {
+        font-weight: bolder;
+        font-size: 34px;
+        margin-left: 5%;
+        margin-top: 35%;
+    }
+    
+    .colored-text {
+        font-size: 9px;
+        display: inline-block;
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+    .div-text{
+        margin-top: 30%;
+    }
+
+    .outer-sec {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .info {
+        margin-top: 100%;
+        flex-direction: column;
+    }
+
+    .edu-sec {
+        margin-left: 0;
+    }
+}
